@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 15px;
+    background-color: rgb(209, 207, 207);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: white; 
+    height: 200px;
+     display: flex;
+     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ourHeading{
+    margin-bottom: 50px;
+}
+nav{
+    background-color: black;
+    display: flex;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.navlink{
+    width: 90px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.navlink:hover{
+    background: lightgray;
+    color: black;
+}
